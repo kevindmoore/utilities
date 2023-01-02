@@ -1,0 +1,26 @@
+name: utilities
+description: Collection of useful utilities.
+version: 1.0.0
+homepage:
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.17.0
+  lumberdash: ^3.0.0
+  colorize_lumberdash: ^3.0.0
+  flutter_riverpod: ^2.1.1
+  collection: ^1.16.0
+#  supa_manager: ^1.0.0-dev.3
+  supa_manager:
+    path: ../supa_manager
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
